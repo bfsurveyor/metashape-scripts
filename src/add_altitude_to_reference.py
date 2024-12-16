@@ -20,7 +20,7 @@ def add_altitude():
     if not len(doc.chunks):
         raise Exception("No chunks!")
 
-    alt = Metashape.app.getFloat("Please specify the height to be added:", 100)
+    alt = Metashape.app.getFloat("Please specify the height to be added:", 330.229)
 
     print("Script started...")
     chunk = doc.chunk
